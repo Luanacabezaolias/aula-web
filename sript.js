@@ -19,6 +19,8 @@ let listaDados=[];
 //objeto base(construtar)
 function Campos(campo1){
     this.campo1 = campo1;
+    this.campo2 = campo2;
+    this.campo3 = campo3;
 }
 
 
@@ -34,6 +36,8 @@ btnEnviar.addEventListener('click', ()=>{
     listaDados.push(info)
     localStorage.setItem("dados",JSON.stringify(listaDados))
 })
+
+
 
 
 
